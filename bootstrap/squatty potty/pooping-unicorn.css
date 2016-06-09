@@ -18,7 +18,7 @@ a.navigation{
     position: fixed;
     height: 100%;
     width: 200px;
-    top: 130px;
+    top: 400px;
     right: 0px;
     z-index:4;
 
@@ -57,7 +57,7 @@ img.men-potty{
 .navbar-default.nat {
     background-color: white;
     border-color: white;
-    border-bottom-color: black;
+    /*border-bottom-color: black;*/
     color:black;
 }
 
@@ -82,12 +82,12 @@ img.stamp{
 
 .btn-info.nat:hover  {
     color: #fff;
-    background-color:#2aabd2;
+    background-color:#00AEEF;
     border-color: black;
 }
 .btn-info.nat  {
     color: #fff;
-    background-color: #2aabd2;
+    background-color: #00AEEF;
     border-color:black ;
 }
 
@@ -167,7 +167,7 @@ div .row.two{
 
 .icon{
     width:15%;
-    color:#2aabd2;
+    color:#00AEEF;
 }
 
 h3.stamp{
@@ -175,7 +175,7 @@ h3.stamp{
 }
 
 div.stats.row {
-    background-color:  #2aabd2;
+    background-color:  #00AEEF;
 }
 .col-lg-4.stat {
     margin: 2%;
@@ -183,7 +183,7 @@ div.stats.row {
     border: 5px solid white;
     width: 290px;
     height: 290px;
-    padding: 13px 0;
+    padding: 50px 0px;
     font-size: 30px;
     line-height: 2.00;
     border-radius: 150px;
@@ -193,17 +193,20 @@ div.stats.row {
 
 .title {
     font-weight: bolder;
-    font-size: 52px;
+    font-size: 35px;
     padding: 0;
 }
 
+.stat .title.countries{
+    padding:10px;
+}
 .text {
-    font-size: 34px;
+    font-size: 25px;
     padding: 0;
 }
 
 .stat.first {
-    margin-left: 22%;
+    margin-left: 13%;
 }
 
 .col-lg-2.icon {
@@ -224,7 +227,7 @@ div.stats.row {
 
 }
 div.col-lg-2.icon {
-    border-color: #2aabd2;
+    border-color: #00AEEF;
 }
 
 
@@ -260,7 +263,7 @@ div.col-lg-2.icon {
 
 .hovereffect h2 {
     text-transform:uppercase;
-    color:#2aabd2;
+    color:#00AEEF;
     text-align:center;
     position:relative;
     font-size:25px;
@@ -279,7 +282,7 @@ div.col-lg-2.icon {
     text-decoration:none;
     display:inline-block;
     text-transform:lowercase;
-    color:#2aabd2;
+    color:#00AEEF;
     border:1px solid black;
     background-color:transparent;
     opacity:0;
@@ -385,13 +388,13 @@ div.col-lg-2.icon {
 }
 
 .footer-basic-centered .footer-company-motto{
-    color: #2aabd2;
+    color: #00AEEF;
     font-size: 24px;
     margin: 0;
 }
 
 .footer-basic-centered .footer-company-name{
-    color: #2aabd2;
+    color: #00AEEF;
     font-size: 14px;
     margin: 0;
 }

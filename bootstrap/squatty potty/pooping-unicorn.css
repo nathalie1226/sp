@@ -24,6 +24,10 @@ a.navigation{
 
 }
 
+img.pooping-unicorn:hover{
+
+}
+
 .rainbow-holder {
     font-size: 0px;
     height: 100%;
@@ -80,16 +84,20 @@ img.stamp{
     margin-top: 1%;
 }
 
-.btn-info.nat:hover  {
-    color: #fff;
-    background-color:#00AEEF;
-    border-color: black;
+.navbar-default.nat .navbar-nav>li>a {
+    color: black;
 }
-.btn-info.nat  {
-    color: #fff;
-    background-color: #00AEEF;
-    border-color:black ;
+
+.navbar-default.nat .navbar-nav>li>a.buy:hover {
+    color: black;
+    background-color: transparent;
+    border-color:black;
 }
+
+.navbar-default.nat .navbar-nav>li>a.buy {
+    color: white;
+}
+
 
 .btn.nat {
     display: inline-block;
@@ -118,11 +126,7 @@ img.stamp{
 }
 
 
-/*img .baby-potty{*/
-    /*Vertical-align:middle;*/
-    /*width:100%;*/
-    /*margin-left:35%;*/
-/*}*/
+
 
 .main.landscape{
     height:400px;
@@ -197,9 +201,7 @@ div.stats.row {
     padding: 0;
 }
 
-.stat .title.countries{
-    padding:10px;
-}
+
 .text {
     font-size: 25px;
     padding: 0;

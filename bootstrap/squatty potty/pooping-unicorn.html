@@ -39,23 +39,36 @@
         <div id="navbar" class="navbar-collapse collapse">
             <img src="images-sp/logo.png" class="logo">
             <ul class="nav navbar-nav navigation">
-                <li><a href="#stats row" class="navigation">Hightlights</a></li>
+                <li><a href="#stats.row" class="navigation">Highlights</a></li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle navigation" data-toggle="dropdown" role="button"
-                       aria-haspopup="true" aria-expanded="false">Get educated!<span class="caret"></span></a>
+                        <a href="#build" class="dropdown-toggle navigation" data-toggle="dropdown" role="button"
+                           aria-haspopup="true" aria-expanded="false">Get educated!<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#build">Build to last</a></li>
+                            <li><a href="#ergo">Ergonomic and practical</a></li>
+                            <!--<li role="separator" class="divider"></li>-->
+                            <!--<li class="dropdown-header">Nav header</li>-->
+                            <li><a href="#dr">Doctors recommended</a></li>
+                            <li><a href="#colon health">Colon health</a></li>
+                        </ul>
+                </li>
+
                 <li>
-                    <button type="button" href="http://www.squattypotty.com/shop/"class="btn btn-info nat navigation">BUY</button>
+                    <a href="http://www.squattypotty.com/shop/" class="btn btn-info buy nat navigation" role="button">BUY</a>
                 </li>
-                <ul class="dropdown-menu">
-                    <li><a href="#">Doctor recommended</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li class="dropdown-header">Nav header</li>
-                    <li><a href="#">Separated link</a></li>
-                    <li><a href="#">One more separated link</a></li>
-                </ul>
-                </li>
+                <!--<div class="dropdown">-->
+                <!--<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example-->
+                <!--<span class="caret"></span></button>-->
+                <!--<ul class="dropdown-menu">-->
+                <!--<li><a href="#">HTML</a></li>-->
+                <!--<li><a href="#">CSS</a></li>-->
+                <!--<li><a href="#">JavaScript</a></li>-->
+                <!--</ul>-->
+                <!--</div>-->
+                <!--<li>-->
+                <!--<a href="http://www.squattypotty.com/shop/" class="btn btn-info nat navigation" role="button">BUY</a>-->
+                <!--&lt;!&ndash;<button type="button" href="http://www.squattypotty.com/shop/"class="btn btn-info nat navigation">BUY</button>&ndash;&gt;-->
+                <!--</li>-->
             </ul>
 
 
@@ -63,35 +76,6 @@
     </div>
 </nav>
 <div class="container-fluid main landscape">
-    <!--<div class="row one">-->
-    <!--<div class="col-lg-12 main picture">-->
-    <!--&lt;!&ndash;<h1 class="title">Poop expertly</h1>&ndash;&gt;-->
-    <!--</div>-->
-    <!--</div>-->
-    <!--<div class="row two">-->
-    <!--<div class="col-lg-12 main picture">-->
-    <!--<img src="./images-sp/doctorstamp.png" class="stamp icon">-->
-    <!--&lt;!&ndash;<h3 class="text stamp doctor">Doctor recommended</h3>&ndash;&gt;-->
-    <!--&lt;!&ndash;<img src='./images-sp/squatty-potty3.jpg' class="men-potty image text photo">&ndash;&gt;-->
-    <!--<img src='./images-sp/squatty-potty2.jpg' class="men-potty image text photo">-->
-    <!--&lt;!&ndash;<img src="./images-sp/toilet.png" class="toilet icon">&ndash;&gt;-->
-    <!--&lt;!&ndash;<img src='./images-sp/unicorn.png' class="pooping-unicorn image text photo">&ndash;&gt;-->
-    <!--<div class="pooping-unicorn " >-->
-    <!--<img src='./images-sp/unicorn.png'>-->
-    <!--<div class="rainbow-holder" >-->
-    <!--<div class="rainbow-stripe" style="background-color:#FEA008;"></div>-->
-    <!--<div class="rainbow-stripe" style="background-color:#CCFB0C;"></div>-->
-    <!--<div class="rainbow-stripe" style="background-color:#27B85B;"></div>-->
-    <!--<div class="rainbow-stripe" style="background-color:#0055F5;"></div>-->
-    <!--<div class="rainbow-stripe" style="background-color:#FE219F;"></div>-->
-    <!--</div>-->
-    <!--</div>-->
-
-    <!--</div>-->
-    <!--</div>-->
-
-    <!--</div>-->
-
 
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
@@ -130,12 +114,12 @@
             </div>
 
             <!--<div class="item fourth">-->
-                <!--&lt;!&ndash;<img class="fourth-slide" src="images-sp/sp.jpg" alt="fourth slide">&ndash;&gt;-->
-                <!--<div class="container">-->
-                    <!--<div class="carousel-caption">-->
-                        <!--<h1 class="poop">hiouch</h1>-->
-                    <!--</div>-->
-                <!--</div>-->
+            <!--&lt;!&ndash;<img class="fourth-slide" src="images-sp/sp.jpg" alt="fourth slide">&ndash;&gt;-->
+            <!--<div class="container">-->
+            <!--<div class="carousel-caption">-->
+            <!--<h1 class="poop">hiouch</h1>-->
+            <!--</div>-->
+            <!--</div>-->
             <!--</div>-->
         </div>
         <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
@@ -148,7 +132,9 @@
         </a>
     </div>
     <div class="pooping-unicorn ">
-        <img src='./images-sp/unicorn2.png'>
+        <a href="#video">
+            <img src='./images-sp/unicorn2.png' title="click on me to see me poop perfectly">
+        </a>
         <div class="rainbow-holder">
             <div class="rainbow-stripe" style="background-color:#FEA008;"></div>
             <div class="rainbow-stripe" style="background-color:#CCFB0C;"></div>
@@ -159,7 +145,7 @@
     </div><!-- /.carousel -->
     <!--<div class="container-fluid">-->
     <!--stats -->
-    <div class="stats row">
+    <div class="stats row" id="stats.row">
         </br>
         <div class="col-lg-4 stat first">
             <b class="title countries "> 39 </b></br>
@@ -179,7 +165,7 @@
         </div>
     </div>
 
-    <div class="row texttitle makespace ">
+    <div class="row texttitle makespace " id="video">
         <div class=" col-sm-3 "><br>
         </div>
         <div class=" col-sm-6 video ">
@@ -211,11 +197,11 @@
 
     </div>
     <!--test 2-->
-    <div class="row">
+    <div class="row" >
         <div class="col-lg-3">
         </div>
 
-        <div class="col-lg-2 hover" style="background-image: url('./images-sp/images/ic-qa.png')">
+        <div class="col-lg-2 hover" id="build" style="background-image: url('./images-sp/images/ic-qa.png')">
             <div class="hovereffect">
                 <div class="overlay">
                     <h2>BUILD TO LAST</h2>
@@ -232,7 +218,7 @@
             </div>
         </div>
 
-        <div class="col-lg-2 hover" style="background-image: url('./images-sp/images/ic-1.png')">
+        <div class="col-lg-2 hover" id="ergo" style="background-image: url('./images-sp/images/ic-1.png')">
             <div class="hovereffect">
                 <div class="overlay">
                     <h2>ERGONOMIC AND PRACTICAL</h2>
@@ -252,7 +238,7 @@
         <div class="col-lg-3">
         </div>
 
-        <div class="col-lg-2 hover" style="background-image: url('./images-sp/images/ic-dr2.png')">
+        <div class="col-lg-2 hover" id="dr" style="background-image: url('./images-sp/images/ic-dr2.png')">
             <div class="hovereffect">
                 <div class="overlay">
                     <h2>DOCTORS RECOMMENDED</h2>
@@ -266,7 +252,7 @@
 
         </div>
 
-        <div class="col-lg-2 hover" style="background-image: url('./images-sp/images/ic-colon.jpg')">
+        <div class="col-lg-2 hover" id="colon health" style="background-image: url('./images-sp/images/ic-colon.jpg')">
             <div class="hovereffect">
                 <div class="overlay">
                     <h2>IMPROVES YOUR COLON HEALTH</h2>
@@ -284,8 +270,6 @@
 
     <!--</div>-->
     <!--<div class= "container-fluid">-->
-
-
 
 
     <footer class="footer-basic-centered">

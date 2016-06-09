@@ -1,0 +1,83 @@
+body{
+    color:#05BBFF;
+}
+
+.row{
+    margin:1%;
+}
+
+.row.one{
+    margin-left:10%;
+}
+
+.row.two{
+    margin-left:10%;
+}
+
+.btn-default.nat {
+    color: white;
+    background-color: #00D5E8;
+    border-color: #00D5E8;
+    margin-left:201%;
+}
+
+h3 .nat{
+    font-size:26px;
+    color:#05BBFF;
+}
+p {
+
+    color: #F0F0F0;
+    margin-left: 3%;
+}
+
+.form_img{
+    position: relative;
+    margin-top: 21px;
+    margin-left: 30px;
+    color:#6FDBFF;
+    width:37px;
+}
+
+.text {
+    position: relative;
+    color: deepskyblue;
+    font-family: Roboto, sans-serif;
+
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: blue;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #9AE5FF;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+::-webkit-input-placeholder {
+    color: red;
+
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    color: #9EE6FF;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+    color: #9EE6FF;
+}
+
+:-ms-input-placeholder {
+    color: #9EE6FF;
+}

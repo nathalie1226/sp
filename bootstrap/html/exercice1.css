@@ -1,0 +1,16 @@
+.tab{
+    margin-left:1%;
+}
+.jumbotron{
+    background-color: white;
+
+}
+
+.nav-tabs.nat>li>a:hover{
+    color:white;
+    background-color:pink;
+}
+
+img{
+    margin-top:2%;
+}

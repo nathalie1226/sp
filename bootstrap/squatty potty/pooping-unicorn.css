@@ -177,11 +177,14 @@ div .row.two{
 h3.stamp{
     font-size:18px;
 }
-
+.row.statistics {
+    margin-bottom: 0;
+    padding: 0;
+}
 div.stats.row {
     background-color:  #00AEEF;
 }
-.col-lg-4.stat {
+.col-lg-4.stat, .col-lg-3.stat {
     margin: 2%;
     text-align: center;
     border: 5px solid white;
@@ -193,6 +196,7 @@ div.stats.row {
     border-radius: 150px;
     display: inline-block;
     color: white;
+    transform: translateX(50%)
 }
 
 .title {
@@ -207,9 +211,9 @@ div.stats.row {
     padding: 0;
 }
 
-.stat.first {
-    margin-left: 13%;
-}
+/*.stat.first {*/
+    /*margin-left: 20%;*/
+/*}*/
 
 .col-lg-2.icon {
     text-align: center;
@@ -281,6 +285,7 @@ div.col-lg-2.icon {
 }
 
 .hovereffect a.info {
+    text-align: left;
     text-decoration:none;
     display:inline-block;
     text-transform:lowercase;
@@ -293,7 +298,7 @@ div.col-lg-2.icon {
     transition:all .2s ease-in-out;
     margin:50px 0 0;
     padding:7px 7px;
-    font-size: 18px;
+    font-size: 150%;
 }
 
 .hovereffect a.info:hover {

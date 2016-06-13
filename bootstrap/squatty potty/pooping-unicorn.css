@@ -449,8 +449,16 @@ div.col-lg-2.icon {
     }
     .pooping-unicorn{
         width:20px;
-        right: 0px;
+        right: 200px;
 
+    }
+    .rainbow-holder{
+        font-size: 0px;
+        height: 100%;
+        /* float: right; */
+        position: absolute;
+        right: -177px;
+        top: 179px;
     }
     a.navigation{
         font-size:100%;
@@ -471,6 +479,20 @@ div.col-lg-2.icon {
     .btn.nat{
         font-size:100%;
         margin-right:25%;
+    }
+
+    a.navigation{
+        font-size:120%;
+    }
+
+}
+
+@media (max-width:1000px) {
+    img.logo {
+width:280px;
+    }
+    a.navigation{
+        font-size:120%;
     }
 }
 
